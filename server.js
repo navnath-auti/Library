@@ -14,7 +14,7 @@ mongoose
     family: 4,
   })
   .then(() => {
-    console.log("mongodb database connection is successful");
+    console.log("Database connection is established");
     app.listen(config.port, () => {
       console.log("App listening on port " + config.port);
     });
